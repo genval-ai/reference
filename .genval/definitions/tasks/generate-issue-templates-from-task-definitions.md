@@ -22,7 +22,8 @@ It's important to include the opening and closing tripple asterisk along with th
 This is important because Genval will look for these opening and closing patterns to find the Scope Patterns patterns to use.
 Make sure to use a textarea element for the Scope Patterns and format the contents as markdown with the opening and closing asterisks.
 
-Note: When adding Markdown you are required to specify a `value` attribute, but you can not specify a `label` attribute. So any markdown text should be set in the `value` attribute.
+Note: When adding Markdown you are required to specify a `value` attribute, but you can not specify a `label` attribute. So any markdown text should be set in the `value` attribute. 
+Also `default` is not a valid attribute for input types, you can only use `value` to specify a default value, you can NOT use `default`.
 
 ### Scope Patterns
 This should be presented as a textarea with this literal value:
